@@ -1,0 +1,226 @@
+@media only screen and (max-width: 1000px) {
+
+   body{
+    min-width: 322px;
+  }
+
+  .content-container#banner {
+    background-position-y: -1px;
+  }
+
+  #header .secondary-nav-container
+  {
+    height: auto;
+  }
+
+  #header .secondary-nav-container .secondary-nav-content .search-my-inedo ul
+  {
+    position: initial;
+    padding-left: 0px;
+  }
+
+  #header .secondary-nav-container .secondary-nav-content .search-my-inedo ul li < form < input#q
+  {
+    float: right;
+    
+  }
+
+  .content-container#nav-container .content {
+    height:auto;
+  }
+
+  .content-container#nav-container .content ul#nav {
+    width: auto;
+    height: auto;
+    float: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+
+  .content-container#nav-container .content ul#nav li {
+    float: none;
+    width: 33%;
+  }
+
+  .content-container#banner .banner-sec {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 20px;
+    padding-top: 0px;
+    margin-top: -6px;
+  }
+
+  .content-container#banner .banner-sec h1 {
+    font-size: 300%;
+      margin-bottom: 15px;
+  }
+
+  .content-container#banner .banner-sec h2 {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 20px;
+    margin-top: 39px;
+  }
+
+  .content-container#banner .tool-chain {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+
+  .content-container#banner .tool-chain a.tool-icons {
+    margin-bottom: 15px;
+    margin-top: 15px;
+  }
+
+  .content-container {
+    padding-left: 10px;
+    padding-right: 10px;
+    width: auto;
+  }
+
+  .content-container.tool .content{
+    margin-bottom: 20px;
+  }
+
+  .content-container.tool .content p {
+    padding-bottom: 20px;
+  }
+
+  .content-container.tool.align-left {
+     text-align: center;
+  }
+
+  .content-container.tool.align-left .left {
+    width: auto;
+  }
+
+  .content-container.tool.align-left .right {
+    width: auto;
+  }
+
+  .content-container.tool.align-left .right img {
+    width: 100%;
+    padding-left: 0;
+    padding-top: 50px;
+  }
+
+  .content-container.tool.align-right {
+    text-align: center;
+  }
+  
+  .content-container.tool.align-right .left {
+    width: auto;
+  }
+
+  .content-container.tool.align-right .left img {
+     width: 100%;
+    padding-left: 0;
+  }
+
+  .content-container.tool.align-right .right {
+    margin-left: 0px;
+    width: auto;
+  }
+
+  .content-container#client-logos{
+    width: 100%;
+  }
+
+  .content-container#client-logos img{
+    width: 100%;
+  }
+
+  .content-container.also-available {
+    margin-bottom: 30px;
+  }
+
+  .content-container.also-available .content .left {
+    width:calc(100% - 10px);
+    
+  }
+  
+  .content-container.also-available .content h2 {
+  
+  }
+
+  .content-container.also-available .content a.cards {
+    width: calc(100% - 10px);
+    padding-bottom: 30px;
+  }
+
+  .content-container.also-available .content .right {
+    width: calc(100% - 10px);
+  }
+
+  .content-container.also-available .content .right a.cards {
+    width: calc(100% - 10px);
+    padding-bottom: 50px;
+  }
+
+  .content-container.roadmap {
+    height: auto;
+    background-position:  top left;
+    padding-top:0px;
+    padding-bottom: 0px;
+  }
+
+  .content-container.roadmap .banner-sec {
+    margin-top: 10px;
+  }
+
+  .content-container.roadmap .banner-sec h2 {
+    font-size: 35px;
+  }
+
+  .content-container.roadmap .banner-sec h2 a {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .content-container.roadmap .banner-sec {
+    margin-top 10px;
+    padding-bottom: 10px;
+  }
+
+  .content-container.roadmap .banner-sec p {
+    font-size: 15px;
+  }
+@media only screen and (max-width: 960px) {
+  
+
+  .content-container#footer {
+    height: auto;
+  }
+
+  .content-container#footer .content {
+    width: auto;
+    padding-left: 0;
+    padding-top: 0;
+  }
+  
+     .content-container#footer .content .footer-box {
+        display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-evenly;
+      border-right: none;
+    }
+
+    .content-container#footer .content .footer-box ul {
+      margin-bottom: 25px;
+    }
+
+    .content-container#footer .content .footer-box .list-box {
+      float: none;
+    }
+
+    .content-container#footer .content .footer-box .list-box.contact-info {
+      border-left: none;
+      padding-left: 0;
+    }
+  }
+}
