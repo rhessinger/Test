@@ -2,6 +2,7 @@
 
    body{
     min-width: 322px;
+      width: 100%;
   }
 
   .content-container#banner {
